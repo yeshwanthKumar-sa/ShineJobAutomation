@@ -25,10 +25,10 @@ public class ShineJobAutomation {
 
         try {
             WebElement emailInput = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("id_email_login")));
-            emailInput.sendKeys("sunkuyeshwanthkumar@gmail.com");
+            emailInput.sendKeys("your_email_here");
 
             WebElement passwordInput = driver.findElement(By.id("id_password"));
-            passwordInput.sendKeys("Ts07gm@6321");
+            passwordInput.sendKeys("your_password_here");
 
             WebElement loginBtn = driver.findElement(By.cssSelector("button.search-btn.submitred"));
             loginBtn.click();
