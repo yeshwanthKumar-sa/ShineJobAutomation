@@ -15,9 +15,11 @@ This project automates the process of logging in, searching, and applying for jo
 
 -> Project Structure
 ShineJobAutomation/
-│── src/
+├── src/
 │ └── ShineJobAutomation.java
-│── README.md
+├── bin/ # Compiled .class files (ignored in .gitignore)
+├── lib/ # External JAR dependencies (if any)
+├── README.md
 
 -> Setup & Usage
 1. Install [Java](https://www.oracle.com/java/technologies/javase-downloads.html).  
