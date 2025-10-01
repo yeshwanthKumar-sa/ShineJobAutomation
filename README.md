@@ -1,18 +1,33 @@
-## Getting Started
+"Shine Job Automation"
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project automates the process of logging in, searching, and applying for jobs on [Shine.com](https://www.shine.com) using "Selenium WebDriver" with Java.
 
-## Folder Structure
+-> Features
+- Automatic login to Shine account  
+- Job search by title, location, and experience  
+- Applies to the first job result automatically  
+- Provides status messages for each step  
 
-The workspace contains two folders by default, where:
+-> Tech Stack
+- "Java"
+- "Selenium WebDriver" 
+- "ChromeDriver"
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+-> Project Structure
+ShineJobAutomation/
+│── src/
+│ └── ShineJobAutomation.java
+│── README.md
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+-> Setup & Usage
+1. Install [Java](https://www.oracle.com/java/technologies/javase-downloads.html).  
+2. Download [ChromeDriver](https://chromedriver.chromium.org/downloads) and set its path in the code:
+   java
+   System.setProperty("webdriver.chrome.driver", "path/to/chromedriver.exe");
+3.Update the code with your Shine credentials:
+    emailInput.sendKeys("your_email_here");
+    passwordInput.sendKeys("your_password_here");
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+4.Run the program:
+   javac ShineJobAutomation.java
+   java ShineJobAutomation
