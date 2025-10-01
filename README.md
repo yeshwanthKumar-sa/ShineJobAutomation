@@ -13,14 +13,6 @@ This project automates the process of logging in, searching, and applying for jo
 - "Selenium WebDriver" 
 - "ChromeDriver"
 
--> Project Structure
-ShineJobAutomation/
-├── src/
-│ └── ShineJobAutomation.java
-├── bin/ # Compiled .class files (ignored in .gitignore)
-├── lib/ # External JAR dependencies (if any)
-├── README.md
-
 -> Setup & Usage
 1. Install [Java](https://www.oracle.com/java/technologies/javase-downloads.html).  
 2. Download [ChromeDriver](https://chromedriver.chromium.org/downloads) and set its path in the code:
